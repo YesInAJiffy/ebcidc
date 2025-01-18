@@ -37,7 +37,7 @@ def binary_to_ebcdic(binary_data):
 
 
 # Read binary data from a file
-with open('CDMAST.DATA', 'rb') as binary_file:
+with open('MYBINDATA.DATA', 'rb') as binary_file:
     binary_data = binary_file.read()
 
 # Convert binary data to EBCDIC
